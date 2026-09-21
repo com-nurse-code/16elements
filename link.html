@@ -5,12 +5,20 @@
 <title>16-エレメント リンクページ</title>
 <style>
   body { background:#FBEAF3; color:#4A3B52; font-family:sans-serif; padding:40px; }
-  a { display:inline-block; background:#4ade80; color:#0f1117; padding:16px 24px;
-      border-radius:8px; text-decoration:none; font-weight:bold; font-size:16px; }
+  a { display:inline-block; padding:16px 24px; border-radius:8px; text-decoration:none;
+      font-weight:bold; font-size:16px; margin-bottom:16px; }
+  a.primary { background:#4ade80; color:#0f1117; }
+  a.note { background:#EC4899; color:#ffffff; }
+  .note-block { margin-top:40px; padding-top:24px; border-top:1px solid #F6D6E8; }
 </style>
 </head>
 <body>
   <p>このページから下のリンクをクリックすると、正しくリファラー（直前のURL）が送信されます。</p>
-  <a href="https://com-nurse-code.github.io/16elements/Ver20260921.001/">診断アプリを開く →</a>
+  <a class="primary" href="https://com-nurse-code.github.io/16elements/Ver20260921.001/">16-エレメントを開く →</a>
+
+  <div class="note-block">
+    <p>他の性格診断アプリ・コンテンツもnote.comで公開中です。</p>
+    <a class="note" href="https://note.com/catalog_note" target="_blank" rel="noopener">note.comのコンテンツ一覧を見る →</a>
+  </div>
 </body>
 </html>

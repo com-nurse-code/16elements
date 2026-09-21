@@ -11,7 +11,7 @@
   // 64-スペクトラムWEB版と同じ仕組み。指定リンク以外からのアクセスは
   // ブロックし、管理者モードでは無視してどこからでも起動できる。
   // ============================================================
-  var EXPECTED_REFERRER_PREFIX = 'https://com-nurse-code.github.io/16elements/test-link.html';
+  var EXPECTED_REFERRER_PREFIX = 'https://com-nurse-code.github.io/16elements/link.html';
   var ADMIN_BYPASS_WORD = 'ADMINUSER';
 
   function isAdminMode() {
